@@ -134,8 +134,9 @@ for (i in 2:dataset_length) {
 }
 
 # Todas as pirâmides foram constrúidas, basta navegar pela aba Plots do RStudio e exportá-las!
-# Lembrando que esse código funciona para qualquer base de dados do SEADE, basta seguir os mesmos
-# parâmetros na hora da importação.
+# Lembrando que esse código funciona para qualquer base de dados que siga os mesmos padrões de organização
+# Territórios nas colunas, e faixas etárias de 5 em 5 anos nas linhas.
+
 
 # Aproveitem!!
 
