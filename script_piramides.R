@@ -28,7 +28,7 @@ view(p_etarias_raw)
 
 # A coluna "Períodos" pode ser desconsiderada!
 
-p_etarias <- p_etarias_raw[,2:99]
+p_etarias <- p_etarias_raw[,2:647]
 
 # Para o código funcionar de forma eficiente, é preciso transformar os números absolutos
 # de população para cada território em uma porcentagem, onde o denominador será a população
