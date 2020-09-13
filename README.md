@@ -1,14 +1,14 @@
 # Pirâmides Etárias
 
-#As pirâmides etárias são gráficos que expressam de forma simples a distribuição demográfico de determinado território.
+As pirâmides etárias são gráficos que expressam de forma simples a distribuição demográfica de determinado território.
 
-#Técnicamente pode-se dizer que a pirâmide etária é composta por dois gráficos de barra espelhados onde a proporção de 
-#indivíduos de determinada faixa etária do Sexo Masculino e Sexo Feminino são representados na abscissa (eixo X) e as faixas
-#etárias na ordenada (eixo Y). Geralmente utiliza-se faixas etárias de 5 em 5 anos.
+Técnicamente pode-se dizer que a pirâmide etária é composta por dois gráficos de barra espelhados onde a proporção de 
+indivíduos de determinada faixa etária do Sexo Masculino e Sexo Feminino são representados na abscissa (eixo X) e as faixas
+etárias na ordenada (eixo Y). Geralmente utiliza-se faixas etárias de 5 em 5 anos.
 
 São inúmeras as informações que podem ser obtidas pela análise de uma pirâmide etária. Ao batermos o olho já sabemos se o território
-análisado possuí alta ou baixa expectativa de vida, se estão nascendo muitas crianças, se a população economicamente ativa é maior do que
-a população dependente e muitas outros indicadores estão "escondidos" ali.
+analisado possuí alta ou baixa expectativa de vida, se estão nascendo muitas crianças, se a população economicamente ativa é maior do que
+a população dependente e etc... Também, muitos outros indicadores estão "escondidos" ali.
 
 Tendo em vista a importância desse indicador, elaborei um script simples que permite a construção de quantas pirâmides etárias você quiser simultaneamente.
 
@@ -20,11 +20,9 @@ Creio que a grande benesse deste script é a capacidade de constuir muitas pirâ
 Agora, gostaria de fazer alguns comentários para quem quiser adaptar o código para outros contextos. 
 
 
-
-
-O Script funcionará bem se fosse organizar as linhas da primeira coluna dos dados da seguinte maneira: 
-A primeira LINHA recebendo a população total masculina[1] de cada território, da linha [2] até as [17] temos as populações por faixas etárias  de 5 em 5 anos masculina
-Na Linha [18] temos a população total Feminina e da LINHA [19] até [34] temos as faixas etárias!
+O Script funcionará bem se você organizar as linhas da primeira coluna dos dados da seguinte maneira: 
+A primeira LINHA recebendo a população total masculina[1,1] de cada território, da linha [2,1] até as [17,1] temos as populações por faixas etárias  de 5 em 5 anos masculina
+Na Linha [18,1] temos a população total Feminina e da LINHA [19,1] até [34,1] temos as faixas etárias!
 Nas linhas temos os diversos territórios ( no caso do exemplo, os 645 municipios de São Paulo)
 
 [1] População Masculina
@@ -59,5 +57,5 @@ População Feminina de 70 a 74 Anos
 
 
 
-Bom, acredito que olhando o script, que é bem simples, vocês consigam fazer pirâmides etárias e adaptar para outros dados!
+Bom, espero que olhando o script, que é bem simples, vocês logrem fazer pirâmides etárias e adaptar para outros dados!
 Deixei dois arquivos com bases populacionais no repositório, um dos munícipios e outro dos distritos administrativos do munícipio de São Paulo!
