@@ -57,38 +57,7 @@ População Feminina de 70 a 74 Anos
 [34] População Feminina de 75 Anos e Mais
 
 
-#Bom agora, vamos ver o Loop For que vai gerar as pirâmides!
-
-Perceba que as posições das linhas que citei acima são parâmetros importantes.
-
-Reparem que nas linhas xy.pop e xx.pop estamos dizendo ao programa aonde estão os nossos dados referentes ao sexo Masculino e Feminino
-
-  for (i in 2:dataset_length) {
-  
-  xy.pop <- c(p_etarias[2:17, i])
-  xx.pop <- c(p_etarias[19:34, i])
-  
-  municipality_name = names(p_etarias[i])
-  
-  piramide1 <- par(
-    mar = pyramid.plot(
-      xy.pop,
-      xx.pop,
-      labels = agelabels,
-      main = qq("Pirâmide Etária @{municipality_name}"),
-      lxcol = mcol,
-      rxcol = fcol,
-      gap = 1.3,
-      show.values = FALSE,
-      top.labels = c("Masc", "Idade", "Fem"),
-      ndig = 3,
-    )
-  )
-  
-}
 
 
-
-
-
-
+Bom, acredito que olhando o script, que é bem simples, vocês consigam fazer pirâmides etárias e adaptar para outros dados!
+Deixei dois arquivos com bases populacionais no repositório, um dos munícipios e outro dos distritos administrativos do munícipio de São Paulo!
