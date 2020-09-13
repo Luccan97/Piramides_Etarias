@@ -6,26 +6,26 @@
 #indivíduos de determinada faixa etária do Sexo Masculino e Sexo Feminino são representados na abscissa (eixo X) e as faixas
 #etárias na ordenada (eixo Y). Geralmente utiliza-se faixas etárias de 5 em 5 anos.
 
-#São inúmeras as informações que podem ser obtidas pela análise de uma pirâmide etária. Ao batermos o olho já sabemos se o território
-#análisado possuí alta ou baixa expectativa de vida, se estão nascendo muitas crianças, se a população economicamente ativa é maior do que
-#a população dependente e muitas outros indicadores estão "escondidos" ali.
+São inúmeras as informações que podem ser obtidas pela análise de uma pirâmide etária. Ao batermos o olho já sabemos se o território
+análisado possuí alta ou baixa expectativa de vida, se estão nascendo muitas crianças, se a população economicamente ativa é maior do que
+a população dependente e muitas outros indicadores estão "escondidos" ali.
 
-#Tendo em vista a importância desse indicador, elaborei um script simples que permite a construção de quantas pirâmides etárias você quiser simultaneamente.
+Tendo em vista a importância desse indicador, elaborei um script simples que permite a construção de quantas pirâmides etárias você quiser simultaneamente.
 
-#No caso, o script está com os parâmetros configurados para receber os dados absolutos de população por faixa etária de todos os 645 munícipios do Estado de São Paulo.
-#Os dados foram extraidos do site da Fundação SEADE http://www.imp.seade.gov.br/frontend/#/tabelas
+No caso, o script está com os parâmetros configurados para receber os dados absolutos de população por faixa etária de todos os 645 munícipios do Estado de São Paulo.
+Os dados foram extraidos do site da Fundação SEADE http://www.imp.seade.gov.br/frontend/#/tabelas
 
-#Creio que a grande benesse deste script é a capacidade de constuir muitas pirâmides de forma rápida e eficiênte. Espero que gostem. 
+Creio que a grande benesse deste script é a capacidade de constuir muitas pirâmides de forma rápida e eficiênte. Espero que gostem. 
 
-#Agora, gostaria de fazer alguns comentários para quem quiser adaptar o código para outros contextos. 
-
-
+Agora, gostaria de fazer alguns comentários para quem quiser adaptar o código para outros contextos. 
 
 
-# O Script funcionará bem se fosse organizar as linhas da primeira coluna dos dados da seguinte maneira: 
-# A primeira LINHA recebendo a população total masculina[1] de cada território, da linha [2] até as [17] temos as populações por faixas etárias  de 5 em 5 anos masculina
-# Na Linha [18] temos a população total Feminina e da LINHA [19] até [34] temos as faixas etárias!
-# Nas linhas temos os diversos territórios ( no caso do exemplo, os 645 municipios de São Paulo)
+
+
+O Script funcionará bem se fosse organizar as linhas da primeira coluna dos dados da seguinte maneira: 
+A primeira LINHA recebendo a população total masculina[1] de cada território, da linha [2] até as [17] temos as populações por faixas etárias  de 5 em 5 anos masculina
+Na Linha [18] temos a população total Feminina e da LINHA [19] até [34] temos as faixas etárias!
+Nas linhas temos os diversos territórios ( no caso do exemplo, os 645 municipios de São Paulo)
 
 [1] População Masculina
 
@@ -57,9 +57,11 @@ População Feminina de 70 a 74 Anos
 [34] População Feminina de 75 Anos e Mais
 
 
-# Bom agora, vamos ver o Loop For que vai gerar as pirâmides!
-# Perceba que as posições das linhas que citei acima são parâmetros importantes.
-# Reparem que nas linhas xy.pop e xx.pop estamos dizendo ao programa aonde estão os nossos dados referentes ao sexo Masculino e Feminino
+#Bom agora, vamos ver o Loop For que vai gerar as pirâmides!
+
+Perceba que as posições das linhas que citei acima são parâmetros importantes.
+
+Reparem que nas linhas xy.pop e xx.pop estamos dizendo ao programa aonde estão os nossos dados referentes ao sexo Masculino e Feminino
 
   for (i in 2:dataset_length) {
   
