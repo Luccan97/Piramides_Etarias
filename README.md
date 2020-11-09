@@ -1,4 +1,4 @@
-# Pirâmides Etárias
+# Muitas Pirâmides Etárias no R. Script simples e agil!
 
 #### As pirâmides etárias são gráficos que expressam de forma simples a distribuição demográfica de determinado território.
 
