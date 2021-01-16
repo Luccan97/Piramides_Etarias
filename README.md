@@ -121,7 +121,7 @@ for (i in 2:dataset_length) {
 
 ```
 
-## Após poucos minutos, as pirâmide etárias dos 646 municípios estarão na aba de Plots do RStudio com a possibilidade de serem salvos em JPEG ou PDF. Aqui, algumas das pirâmides geradas pelo código:
+## Após poucos minutos, as pirâmide etárias dos 646 municípios estarão na aba de Plots do RStudio com a possibilidade de serem salvas em JPEG ou PDF. Aqui, algumas das pirâmides geradas pelo código:
 
 <img src="https://raw.githubusercontent.com/Luccan97/Piramides_Etarias/master/piramides_GIFS.gif" width=600>
 
