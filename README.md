@@ -153,6 +153,5 @@ for (i in 2:dataset_length) {
 
 <img src="https://github.com/Luccan97/Piramides_Etarias/blob/master/piramides_GIFS.gif" width="400" height="400" />
 
-![alt-text](https://github.com/Luccan97/Piramides_Etarias/blob/master/piramides_GIFS.gif" width="400" height="400")
+![alt-text](https://github.com/Luccan97/Piramides_Etarias/blob/master/piramides_GIFS.gif)
 
-!
