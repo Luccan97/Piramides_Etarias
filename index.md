@@ -18,7 +18,8 @@ No caso, o script está com os parâmetros configurados para receber os dados ab
 
 > Após importar o dataset para o ambiente do R e retirar a coluna do período, nossa primeira ação será transformar os números absolutos de população em proporções!
 
-```dataset_length <- length(names(p_etarias))
+```ruby
+dataset_length <- length(names(p_etarias))
 
 for (a in 2:dataset_length) {
   p_etarias[2,a] <- (p_etarias[2,a]/sum(p_etarias[1,a]) * 100)
@@ -58,7 +59,7 @@ for (a in 2:dataset_length) {
 
 ## Agora, vamos definir alguns parâmetros gráficos da nossa pirâmide e depois rodar a função que irá criar uma pirâmide para cada um dos 646 municpipios de São Paulo.
 
-```
+```ruby
 agelabels <- c(
   "0-4",
   "5-9",
