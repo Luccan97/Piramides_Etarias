@@ -63,8 +63,7 @@ Os dados foram extraidos do site da Fundação SEADE http://www.imp.seade.gov.br
 ## Após importar o dataset para o ambiente do R e retirar a coluna do período, nossa primeira ação será transformar os números absolutos de população em proporções!
 
 
-``` 
-ruby
+```ruby
 dataset_length <- length(names(p_etarias))
 
 for (a in 2:dataset_length) {
@@ -105,8 +104,7 @@ for (a in 2:dataset_length) {
 
 ## Agora, vamos definir alguns parâmetros gráficos da nossa pirâmide e depois rodar a função que irá criar uma pirâmide para cada um dos 646 municpipios de São Paulo.
 
-```
-ruby
+```ruby
 agelabels <- c(
   "0-4",
   "5-9",
