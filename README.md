@@ -11,7 +11,7 @@ São inúmeras as informações que podem ser obtidas pela análise de uma pirâ
 
 #### Tendo em vista a importância desse indicador, elaborei um script simples que permite a construção de várias pirâmides etárias ao mesmo tempo. 
 
-No caso, o script está com os parâmetros configurados para receber os dados absolutos de população por faixa etária de todos os 645 munícipios do Estado de São Paulo.
+No caso, o script está com os parâmetros configurados para receber os dados absolutos de população por faixa etária de todos os 646 munícipios do Estado de São Paulo.
 [Os dados foram extraidos do site da Fundação SEADE](http://www.imp.seade.gov.br/frontend/#/tabelas).
 
 A tabela importada do SEADA possuí as faixas etárias separadas por sexo nas linhas e os municípios do Estado de São Paulo nas colunas. A idéia é utilizar o ambiente do RStudio para criar uma função que dê conta de "scanear" a tabela e construir, uma à uma, as pirâmides etárias de todos os municípios. 
@@ -121,11 +121,11 @@ for (i in 2:dataset_length) {
 
 ```
 
-## Após poucos minutos, as pirâmide etárias dos 645 municípios estarão na aba de Plots do RStudio com a possibilidade de serem salvos em JPEG ou PDF. Aqui, algumas das pirâmides geradas pelo código:
+## Após poucos minutos, as pirâmide etárias dos 646 municípios estarão na aba de Plots do RStudio com a possibilidade de serem salvos em JPEG ou PDF. Aqui, algumas das pirâmides geradas pelo código:
 
-![Alt-text](https://github.com/Luccan97/Piramides_Etarias/blob/master/piramides_GIFS.gif)
+<img src="https://github.com/goswami-rahul/alien-invasion-game/blob/master/assets/demo.gif" width=1000>
 
 
-
+Eu postei um vídeo no YouTube mostrando com mais detalhes a aplciação do script, caso tenha interesse, [clique aqui](https://www.youtube.com/watch?v=rsTSsNSitAg).
 
 
