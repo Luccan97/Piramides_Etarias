@@ -13,16 +13,7 @@ a população dependente e etc... Também, muitos outros indicadores estão "esc
 ####  Tendo em vista a importância desse indicador, elaborei um script simples que permite a construção de quantas pirâmides etárias você quiser simultaneamente.
 
 No caso, o script está com os parâmetros configurados para receber os dados absolutos de população por faixa etária de todos os 645 munícipios do Estado de São Paulo.
-[Os dados foram extraidos do site da Fundação SEADE](http://www.imp.seade.gov.br/frontend/#/tabelas)
-
-
-
-
-
-
-
-## Creio que o grande benfício deste script é a capacidade de constuir muitas pirâmides de forma rápida e eficiênte.
-
+[Os dados foram extraidos do site da Fundação SEADE](http://www.imp.seade.gov.br/frontend/#/tabelas).
 
 
 > Após importar o dataset para o ambiente do R e retirar a coluna do período, nossa primeira ação será transformar os números absolutos de população em proporções!
@@ -66,6 +57,7 @@ for (a in 2:dataset_length) {
 ```
 
 ## Agora, vamos definir alguns parâmetros gráficos da nossa pirâmide e depois rodar a função que irá criar uma pirâmide para cada um dos 646 municpipios de São Paulo.
+
 ```
 agelabels <- c(
   "0-4",
@@ -114,7 +106,7 @@ for (i in 2:dataset_length) {
 ```
 ## Aqui, algumas das pirâmides geradas pelo código:
 
-<img src="https://github.com/Luccan97/Piramides_Etarias/blob/master/piramides_GIFS.gif" width="400" height="400" />
+![alt-text](https://github.com/Luccan97/Piramides_Etarias/blob/master/piramides_GIFS.gif)
 
 
 
