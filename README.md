@@ -107,7 +107,7 @@ for (i in 2:dataset_length) {
 ```
 ## Aqui, algumas das pirâmides geradas pelo código:
 
-![alt-text](https://github.com/Luccan97/Piramides_Etarias/blob/master/piramides_GIFS.gif)
+![Alt-text](https://github.com/Luccan97/Piramides_Etarias/blob/master/piramides_GIFS.gif)
 
 
 
