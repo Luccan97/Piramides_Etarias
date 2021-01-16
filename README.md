@@ -63,7 +63,9 @@ Os dados foram extraidos do site da Fundação SEADE http://www.imp.seade.gov.br
 ## Após importar o dataset para o ambiente do R e retirar a coluna do período, nossa primeira ação será transformar os números absolutos de população em proporções!
 
 
-```dataset_length <- length(names(p_etarias))
+``` 
+ruby
+dataset_length <- length(names(p_etarias))
 
 for (a in 2:dataset_length) {
   p_etarias[2,a] <- (p_etarias[2,a]/sum(p_etarias[1,a]) * 100)
@@ -104,6 +106,7 @@ for (a in 2:dataset_length) {
 ## Agora, vamos definir alguns parâmetros gráficos da nossa pirâmide e depois rodar a função que irá criar uma pirâmide para cada um dos 646 municpipios de São Paulo.
 
 ```
+ruby
 agelabels <- c(
   "0-4",
   "5-9",
@@ -149,6 +152,7 @@ for (i in 2:dataset_length) {
 }
 
 ```
+
 ## Depois de poucos minutos, podemos observar algumas das pirâmides geradas pelo código:
 
 <img src="https://github.com/Luccan97/Piramides_Etarias/blob/master/piramides_GIFS.gif" width="400" height="400" />
