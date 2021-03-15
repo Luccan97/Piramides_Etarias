@@ -2,6 +2,10 @@
 
 #### As pirâmides etárias são gráficos que expressam de forma simples a distribuição demográfica de determinado território.
 
+
+<div style="width:500px;max-width:100%;"><div style="height:0;padding-bottom:81.4%;position:relative;"><iframe width="500" height="407" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/51tlog"></iframe></div><p><a href="https://imgflip.com/gif/51tlog">via Imgflip</a></p></div>
+
+
 Técnicamente, pode-se dizer que a pirâmide etária é composta por dois gráficos de barra onde a proporção de 
 indivíduos de determinada faixa etária do sexo Masculino e sexo Feminino são representados espelhados na abscissa (eixo X) e as faixas
 etárias em ordem crescente na ordenada (eixo Y). Geralmente utilizam-se  as faixas etárias categorizadas de 5 em 5 anos.
